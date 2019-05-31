@@ -1,0 +1,67 @@
+/********** FILE IMPORTS **********/
+/*************************************/
+
+@import url('bootstrap.css');
+@import url('fonts.css');
+
+
+
+
+/********** GENERAL STUFF **********/
+/*************************************/
+
+.fs12 {
+    font-size: 12px;
+}
+
+.fs13 {
+    font-size: 13px;
+}
+
+.fs14 {
+    font-size: 14px;
+}
+
+.fs15 {
+    font-size: 15px;
+}
+
+.fs16 {
+    font-size: 16px;
+}
+
+.fs30 {
+    font-size: 30px;
+}
+
+.large-red-button {
+    width: 100%;
+padding: 30px;
+border-color: blue;
+}
+
+.nomargin {
+    margin: 0 !important;
+}
+
+
+/********** CONTACT PAGE **********/
+/*************************************/
+
+
+
+
+
+
+
+/********** PORTFOLIO PAGE **********/
+/*************************************/
+
+
+
+
+
+
+
+/********** ABOUT PAGE **********/
+/*************************************/
