@@ -8,14 +8,6 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="col">
-                <div class="alert alert-danger">
-                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
-                    <strong>Oh snap!</strong> Change a <a href="" class="alert-link">few things</a> up and try submitting again.
-                </div>
-            </div>
-        </div>
-        <div class="row">
             <div class="col-4">
                 <img src="images/admin_login.png" class="img-fluid">
                 <p class="fs15">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitat... </p>
@@ -33,17 +25,47 @@
             </div>
         </div>
         
+        <div class="row">
+            <div class="col">
+                <div class="alert alert-danger input-error">
+                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                    <strong>Oh snap!</strong> Input Has a Length Less Than 6 Characters!
+                </div>
+                <div class="alert alert-success input-success">
+                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                <strong>Well done!</strong> Input Has a Length More Than 6 Characters!
+                </div>
+            </div>
+        </div>
+        
         <div class="row mt20">
             <div class="col-3">
-                <button class="btn btn-success btn-lg">Submit</button>
+                <button id="submitButton" class="btn btn-success btn-lg btn-block">Submit</button>
             </div>
             
             <div class="col-9">
-                <input type="text" placeholder="Default Input" class="form-control input-lg">
+                <input id="password_input" type="password" name="password" placeholder="Default Input" class="form-control input-lg">
             </div>
         </div>
     </div>
     <script src="js/jquery-3.4.1.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('div.input-error').hide();
+            $('div.input-success').hide();
+            $('#submitButton').click(function(){
+                if($('#password_input').val().length > 6){
+                    $('div.input-success').show();
+                    $('div.input-error').hide();
+                }
+                else {
+                    $('div.input-error').show();
+                    $('div.input-success').hide();
+                }
+                
+            });
+        });
+    </script>
 </body>
 </html>  
