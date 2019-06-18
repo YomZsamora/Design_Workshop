@@ -71,7 +71,7 @@ border-color: blue;
 /********** INDEX PAGE **********/
 /*************************************/
 button.submit-button:hover {
-    background-color: blue;
+    background-color: red;
     text-transform: uppercase;
     text-decoration: underline;
     border: 5px solid red;
