@@ -3,72 +3,35 @@
 <head>
 	<title>MPFT19 Design Workshop</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/fonts.css">
     <link rel="shortcut icon" href="images/favicon.ico">
 </head>
 <body>
-    <div class="container">
-        <div class="row">
-            <p>This is Just a Tutorial on how to contribute on a GitHub project.</p>
-        </div>
+    <div class="container nomargin">
         <div class="row">
             <div class="col-4">
+							<p> This is side A </p> 
                 <img src="images/admin_login.png" class="img-fluid">
-                <p class="fs15">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitat... </p>
+                <p class="fs12">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitat... </p>
                 <button class="btn-success btn-xs">Click Me!</button>
             </div>
             <div class="col-4">
                 <img src="images/admin_login.png" class="img-fluid">
                 <p class="fs16">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitat... </p>
-                <button class="btn-warning btn-block btn-lg submit-button"><i class="fa fa-battery-half"></i> Battery Low!</button>
+                <button class="btn-warning btn-block btn-lg"><i class="fa fa-battery-half"></i> Battery Low!</button>
             </div>
             <div class="col-4">
                 <img src="images/admin_login.png" class="img-fluid">
-                <p class="fs30">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitat... </p>
+                <p class="fs30"><p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitat... </p>
                 <button class="btn-danger btn-sm large-red-button"><i class="fa fa-hand-spock-o fa-2x"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Click Me!</button>
             </div>
         </div>
-        
         <div class="row">
-            <div class="col">
-                <div class="alert alert-danger input-error">
-                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
-                    <strong>Oh snap!</strong> Input Has a Length Less Than 6 Characters!
-                </div>
-                <div class="alert alert-success input-success">
-                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
-                <strong>Well done!</strong> Input Has a Length More Than 6 Characters!
-                </div>
-            </div>
+            <div class="col"></div>
         </div>
-        
-        <div class="row mt20">
-            <div class="col-3">
-                <button id="submitButton" class="btn btn-success btn-lg btn-block">Submit</button>
-            </div>
-            
-            <div class="col-9">
-                <input id="password_input" type="password" name="password" placeholder="Default Input" class="form-control input-lg">
-            </div>
+        <div class="row">
+            <div class="col"></div>
         </div>
     </div>
-    <script src="js/jquery-3.4.1.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script>
-        $(document).ready(function(){
-            $('div.input-error').hide();
-            $('div.input-success').hide();
-            $('#submitButton').click(function(){
-                if($('#password_input').val().length > 6){
-                    $('div.input-success').show();
-                    $('div.input-error').hide();
-                }
-                else {
-                    $('div.input-error').show();
-                    $('div.input-success').hide();
-                }
-                
-            });
-        });
-    </script>
 </body>
-</html>  
+</html>
