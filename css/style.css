@@ -43,6 +43,10 @@ border-color: blue;
 .nomargin {
     margin: 0 !important;
 }
+.added{
+    color: blue;
+    font-size: 20px;
+}
 
 
 /********** CONTACT PAGE **********/
