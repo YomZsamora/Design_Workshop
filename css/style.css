@@ -34,6 +34,30 @@
     font-size: 30px;
 }
 
+.mt0{
+ margin-top: 0;   
+}
+
+.mt10{
+ margin-top: 10px;   
+}
+
+.mt20{
+ margin-top: 20px;   
+}
+
+.mt30{
+ margin-top: 30px;   
+}
+
+.mt40{
+ margin-top: 40px;   
+}
+
+.mt50{
+ margin-top: 50px;   
+}
+
 .large-red-button {
     width: 100%;
 padding: 30px;
@@ -47,6 +71,22 @@ border-color: blue;
     color: blue;
     font-size: 20px;
 }
+
+/********** INDEX PAGE **********/
+/*************************************/
+button.submit-button:hover {
+    background-color: blue;
+    text-transform: uppercase;
+    text-decoration: underline;
+    border: 5px solid red;
+    color: #ffffff;
+}
+
+.input-lg {
+    padding: 35px 35px;
+}
+
+
 
 
 /********** CONTACT PAGE **********/
