@@ -45,6 +45,25 @@ border-color: blue;
 }
 
 
+
+button.submit-button:hover{
+	background-color: blue;
+	text-transform: uppercase;
+	text-decoration: underline;
+	border: 5px solid red;
+	color: #fff;
+}
+
+div.mine{
+	margin-top: 50px;
+}
+
+.input-lg{
+
+	padding: 45px 30px;
+
+}
+
 /********** CONTACT PAGE **********/
 /*************************************/
 
