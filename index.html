@@ -8,27 +8,27 @@
 <body>
     <div class="container">
         <div class="row">
-            <p>This is Just a Tutorial on how to contribute on a GitHub project.</p>
+            <p>MPFT23 Catch Up For CSS (Bootstrap) and JavaScript (JQuery)</p>
         </div>
         <div class="row">
             <div class="col-4">
                 <img src="images/admin_login.png" class="img-fluid">
                 <p class="fs15">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitat... </p>
-                <button class="btn-success btn-xs">Click Me!</button>
+                <button class="btn-success btn-block btn-lg">Click Me!</button>
             </div>
             <div class="col-4">
                 <img src="images/admin_login.png" class="img-fluid">
-                <p class="fs16">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitat... </p>
+                <p class="fs15">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitat... </p>
                 <button class="btn-warning btn-block btn-lg submit-button"><i class="fa fa-battery-half"></i> Battery Low!</button>
             </div>
             <div class="col-4">
                 <img src="images/admin_login.png" class="img-fluid">
-                <p class="fs30">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitat... </p>
-                <button class="btn-danger btn-sm large-red-button"><i class="fa fa-hand-spock-o fa-2x"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Click Me!</button>
+                <p class="fs15">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitat... </p>
+                <button class="btn-danger btn-block btn-lg"><i class="fa fa-hand-spock-o"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Click Me!</button>
             </div>
         </div>
         
-        <div class="row">
+        <div class="row mt20">
             <div class="col">
                 <div class="alert alert-danger input-error">
                     <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
@@ -43,13 +43,12 @@
         
         <div class="row mt20">
             <div class="col-3">
-            <button id="submitButton" class="btn btn-success btn-lg btn-block">Submit</button>
             <button id="submitButton" class="btn btn-primary btn-xs btn-block">Submit</button>
 
             </div>
             
             <div class="col-9">
-                <input id="password_input" type="password" name="password" placeholder="Default Input" class="form-control input-lg">
+                <input id="password_input" type="password" name="password" placeholder="Default Input" class="form-control input-sm">
             </div>
         </div>
     </div>
@@ -57,19 +56,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script>
         $(document).ready(function(){
-            $('div.input-error').hide();
-            $('div.input-success').hide();
-            $('#submitButton').click(function(){
-                if($('#password_input').val().length > 6){
-                    $('div.input-success').show();
-                    $('div.input-error').hide();
-                }
-                else {
-                    $('div.input-error').show();
-                    $('div.input-success').hide();
-                }
-                
-            });
+            
         });
     </script>
 </body>

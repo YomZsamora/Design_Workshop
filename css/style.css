@@ -70,17 +70,9 @@ border-color: blue;
 
 /********** INDEX PAGE **********/
 /*************************************/
-button.submit-button:hover {
-    background-color: red;
-    text-transform: uppercase;
-    text-decoration: underline;
-    border: 5px solid red;
-    color: #ffffff;
-}
 
-.input-lg {
-    padding: 35px 35px;
-}
+
+
 
 
 
