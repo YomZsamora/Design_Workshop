@@ -3,6 +3,7 @@
 
 @import url('bootstrap.css');
 @import url('fonts.css');
+@import url('jquery-ui-1.10.3.css');
 
 
 
@@ -72,7 +73,15 @@ border-color: blue;
 /*************************************/
 
 
+#batteryButton:hover {
+    text-transform: uppercase;
+}
 
+.far-left-paragraph {
+    color: red;
+    text-transform: uppercase;
+    text-align: center;
+}
 
 
 
