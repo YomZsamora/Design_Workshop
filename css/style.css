@@ -10,7 +10,9 @@
 
 /********** GENERAL STUFF **********/
 /*************************************/
-
+body {
+    text-align: center;
+}
 .fs12 {
     font-size: 12px;
 }
