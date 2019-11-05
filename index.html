@@ -1,60 +1,120 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>MPFT23 Design Workshop</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="shortcut icon" href="images/favicon.ico">
-</head>
-<body>
+  <head>
+    <title>MPFT23 Design Workshop</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="shortcut icon" href="images/favicon.ico" />
+  </head>
+  <body>
+    <p class="para">
+      You can Forking Git anything if you push on, you deserve it. Anto &copy;
+      2019
+    </p>
     <div class="container">
-        <div class="row">
-            <p>MPFT23 Catch Up For CSS (Bootstrap) and JavaScript (JQuery)</p>
+      <div class="row">
+        <p>MPFT23 Catch Up For CSS (Bootstrap) and JavaScript (JQuery)</p>
+      </div>
+      <div class="row ">
+        <div id="col1" class="col-4">
+          <img src="images/admin_login.png" class="img-fluid" />
+          <p id="para1" class="fs15">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitat...
+          </p>
+          <button id="leftButton" class="btn-success btn-block btn-lg">
+            <i class="fa fa-volume-down" aria-hidden="true"></i
+            >&nbsp;&nbsp;&nbsp;Click Me!
+          </button>
         </div>
-        <div class="row ">
-            <div id="col1" class="col-4">
-                <img src="images/admin_login.png" class="img-fluid">
-                <p id="para1" class="fs15">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitat... </p>
-                <button id="leftButton" class="btn-success btn-block btn-lg"><i class="fa fa-volume-down" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Click Me!</button>
-            </div>
-            <div id="col2" class="col-4">
-                <img src="images/admin_login.png" class="img-fluid">
-                <p class="fs15">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitat... </p>
-                <button id="batteryButton" class="btn-warning btn-block btn-lg submit-button"><i class="fa fa-battery-half"></i> Battery Low!</button>
-            </div>
-            <div id="col3" class="col-4 info">
-                <img src="images/admin_login.png" class="img-fluid">
-                <p class="fs15">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitat... </p>
-                <button id="rightButton" class="btn-danger btn-block btn-lg"><i class="fa fa-hand-spock-o"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Click Me!</button>
-            </div>
+        <div id="col2" class="col-4">
+          <img src="images/admin_login.png" class="img-fluid" />
+          <p class="fs15">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitat...
+          </p>
+          <button
+            id="batteryButton"
+            class="btn-warning btn-block btn-lg submit-button"
+          >
+            <i class="fa fa-battery-half"></i> Battery Low!
+          </button>
         </div>
-        
-        <div class="row mt20">
-            <div class="col">
-                <div id="showError" class="alert alert-danger input-error">
-                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
-                    <strong><i class="fa fa-exclamation-triangle" aria-hidden="true"></i>&nbsp;&nbsp;Oh snap!</strong> Input Has a Length Less Than 6 Characters!
-                </div>
-                <div id="showSuccess" class="alert alert-success input-success">
-                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
-                    <strong><i class="fa fa-thumbs-up fa-6x" aria-hidden="true"></i>&nbsp;&nbsp;Well done!</strong> Input Has a Length More Than 6 Characters!
-                </div>
-            </div>
+        <div id="col3" class="col-4 info">
+          <img src="images/admin_login.png" class="img-fluid" />
+          <p class="fs15">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitat...
+          </p>
+          <button id="rightButton" class="btn-danger btn-block btn-lg">
+            <i class="fa fa-hand-spock-o"></i
+            >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Click Me!
+          </button>
         </div>
-        
-        <div class="row mt20">
-            <div class="col-3">
-            <button id="submitButton" class="btn btn-primary btn-xs btn-block">Submit</button>
+      </div>
 
-            </div>
-            
-            <div class="col-9">
-                <input class="tooltips form-control input-sm" data-placement="top" data-toggle="tooltip" title="" data-original-title="Please Enter a Strong Password" id="password_input" type="password" name="password" placeholder="Default Input">
-            </div>
+      <div class="row mt20">
+        <div class="col">
+          <div id="showError" class="alert alert-danger input-error">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="alert"
+              aria-hidden="true"
+            >
+              ×
+            </button>
+            <strong
+              ><i class="fa fa-exclamation-triangle" aria-hidden="true"></i
+              >&nbsp;&nbsp;Oh snap!</strong
+            >
+            Input Has a Length Less Than 6 Characters!
+          </div>
+          <div id="showSuccess" class="alert alert-success input-success">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="alert"
+              aria-hidden="true"
+            >
+              ×
+            </button>
+            <strong
+              ><i class="fa fa-thumbs-up fa-6x" aria-hidden="true"></i
+              >&nbsp;&nbsp;Well done!</strong
+            >
+            Input Has a Length More Than 6 Characters!
+          </div>
         </div>
+      </div>
+
+      <div class="row mt20">
+        <div class="col-3">
+          <button id="submitButton" class="btn btn-primary btn-xs btn-block">
+            Submit
+          </button>
+        </div>
+
+        <div class="col-9">
+          <input
+            class="tooltips form-control input-sm"
+            data-placement="top"
+            data-toggle="tooltip"
+            title=""
+            data-original-title="Please Enter a Strong Password"
+            id="password_input"
+            type="password"
+            name="password"
+            placeholder="Default Input"
+          />
+        </div>
+      </div>
     </div>
     <script src="js/jquery-3.4.1.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
-</body>
-</html>  
+  </body>
+</html>

@@ -1,108 +1,97 @@
 /********** FILE IMPORTS **********/
 /*************************************/
 
-@import url('bootstrap.css');
-@import url('fonts.css');
-@import url('jquery-ui-1.10.3.css');
-
-
-
+@import url("bootstrap.css");
+@import url("fonts.css");
+@import url("jquery-ui-1.10.3.css");
 
 /********** GENERAL STUFF **********/
 /*************************************/
+.para {
+  background: red;
+  color: yellow;
+  font-weight: bold;
+  padding: 2rem;
+  text-align: center;
+  font-size: 2rem;
+}
 
 .fs12 {
-    font-size: 12px;
+  font-size: 12px;
 }
 
 .fs13 {
-    font-size: 13px;
+  font-size: 13px;
 }
 
 .fs14 {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .fs15 {
-    font-size: 15px;
+  font-size: 15px;
 }
 
 .fs16 {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .fs30 {
-    font-size: 30px;
+  font-size: 30px;
 }
 
-.mt0{
- margin-top: 0;   
+.mt0 {
+  margin-top: 0;
 }
 
-.mt10{
- margin-top: 10px;   
+.mt10 {
+  margin-top: 10px;
 }
 
-.mt20{
- margin-top: 20px;   
+.mt20 {
+  margin-top: 20px;
 }
 
-.mt30{
- margin-top: 30px;   
+.mt30 {
+  margin-top: 30px;
 }
 
-.mt40{
- margin-top: 40px;   
+.mt40 {
+  margin-top: 40px;
 }
 
-.mt50{
- margin-top: 50px;   
+.mt50 {
+  margin-top: 50px;
 }
 
 .large-red-button {
-    width: 100%;
-padding: 30px;
-border-color: blue;
+  width: 100%;
+  padding: 30px;
+  border-color: blue;
 }
 
 .nomargin {
-    margin: 0 !important;
+  margin: 0 !important;
 }
 
 /********** INDEX PAGE **********/
 /*************************************/
 
-
 #batteryButton:hover {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .far-left-paragraph {
-    color: red;
-    text-transform: uppercase;
-    text-align: center;
+  color: red;
+  text-transform: uppercase;
+  text-align: center;
 }
-
-
-
 
 /********** CONTACT PAGE **********/
 /*************************************/
 
-
-
-
-
-
-
 /********** PORTFOLIO PAGE **********/
 /*************************************/
-
-
-
-
-
-
 
 /********** ABOUT PAGE **********/
 /*************************************/
