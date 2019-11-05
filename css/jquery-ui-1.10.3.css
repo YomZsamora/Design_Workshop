@@ -965,7 +965,7 @@ body .ui-tooltip {
 
 .slider-danger .ui-slider-range,
 .slider-danger .ui-slider-handle {
-	background-color: #D9534F;
+	background-color: red;
 }
 
 .slider-info .ui-slider-range,
