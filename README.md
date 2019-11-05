@@ -1,3 +1,8 @@
+# AUTHORS
+
+- Kiprotich Dominic
+- Yommie Samora
+
 # Design Workshop
 
 Project entails boilerplate code for MPFT23 Design Bootstrap Workshop. Languages used are HTML, CSS (BootStrap) and JavaScript (jQuery). Topics covered include Grid System, FontAwesome, Breakpoints for Responsiveness, jQuery Animations & UI Elements.
@@ -18,12 +23,12 @@ Console or JSFiddle
 - Open terminal command line then navigate to the root folder of the application.
 - Open `index.html` on your browser.
 
-
 ## Development
 
 Want to contribute? Great!
 
 To fix a bug or enhance an existing module, follow these steps:
+
 - Fork the repo
 - Create a new branch (git checkout -b improve-feature)
 - Make the appropriate changes in the files
@@ -31,7 +36,6 @@ To fix a bug or enhance an existing module, follow these steps:
 - Commit your changes (git commit -am 'Improve feature')
 - Push to the branch (git push origin improve-feature)
 - Create a Pull Request
-
 
 ## Known Bugs
 
@@ -41,7 +45,7 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 
 ### License
 
-*MIT*
+_MIT_
 Copyright (c) 2019 **Yommie Samora**
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
