@@ -4,7 +4,8 @@ Project entails boilerplate code for MPFT23 Design Bootstrap Workshop. Languages
 
 ## Requirements
 
-Console or JSFiddle
+- Console or JSFiddle
+- Internet connection
 
 ##### Technologies Used
 
